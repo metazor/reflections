@@ -35,4 +35,13 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When I want to test changes without changing master—for example in
+    a collaborative project. It also makes it possible to use Pull Requests, so
+    others can comment on the changes before merging into master.
+
+    separate branch benefits:
+        - keeps master clean
+        - possible to use Pull Requests
+
+    master branch benefits:
+        - faster and simpler
